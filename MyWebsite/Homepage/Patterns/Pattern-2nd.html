@@ -22,6 +22,7 @@
          h1{
             font-family:Montserrat Alternates;
             color:#0071BC;
+            text-align: center;
          }
 
          a:link {
@@ -36,6 +37,7 @@
          color: black;}
 
        .nav-list{
+               text-align: center;
                list-style: none
             }
 
@@ -44,6 +46,7 @@
                display:inline-block;
                margin:10px;
                font-family:Forum;
+
             }
 
          .nav-item-color{
@@ -111,6 +114,51 @@
             height:490;
          }
 
+         .column1 {
+           float: left;
+           width: 25%;
+           padding: 10px;
+         }
+
+         .column2 {
+           float: left; 
+           width: 10%;
+           padding: 0px;
+         }
+
+         .column3 {
+           float: right;
+           width: 25%;
+           padding: 10px;
+         }
+
+         .column {
+           display: inline-block;
+           vertical-align: top;
+           text-align: left;
+           padding: 0px;
+         }
+
+         .row {
+            text-align: center;
+         }
+
+         .outer-box {
+            position: relative;
+            margin: 50px auto;
+            text-align: center;
+            border:solid;
+            padding:150px;
+         }
+
+         .outer-boxi {
+            position: relative;
+            margin: 50px auto;
+            text-align: center;
+            border:solid;
+            padding:100px;
+         }
+
       </style>
 
 
@@ -137,13 +185,26 @@
          <img src="Images/dino.png" class="pho">
          <img src="Images/dinoii.png" class="pho">
 
-         <h3 class="h3">Add to Favorites</h3> <img src="../Images/staricon.png" class="iconiv">
-         <h3 class="h3">Add to Queue</h3> <img src="Images/queueicon.png" class="iconiii">
-         <h3 class="h3">Share</h3> <img src="Images/shareicon.png" class="iconii">
-         <h3 class="h3">Rate</h3> <img src="Images/thumbupicon.png" class="iconii"> <img src="Images/thumbdownicon.png" class="iconii">
-         <h3 class="h3">Overall Rating</h3> <img src="Images/ratestaricon.png" class="iconv">
+        <div class="row">
+      <div class="column">
+         <ul class="nav-list">
+            <li class="nav-item h3">Add to Favorites
+                  <img src="../Images/staricon.png" class="iconiv"></a></li>
+            <li class="nav-item h3">Add to Queue
+                  <img src="Images/queueicon.png" class="iconiii"></li>
+            <li class="nav-item h3">Share
+                  <img src="Images/shareicon.png" class="iconii"></li>
+            <li class="nav-item h3">Rate
+                  <img src="Images/thumbupicon.png" class="iconii"> <img src="Images/thumbdownicon.png" class="iconii"></li>
+            <li class="nav-item h3">Overall Rating
+                  <img src="Images/ratestaricon.png" class="iconv"></li>
+         </ul>
+      </div>
+   </div>
 
 
+      <div class="row">
+      <div class="column1">
          <h3 class="h3alt">Author:</h3>      <p class="p">Handmade by Ani</p>
          <h3 class="h3alt">Category:</h3>    <p class="p">Amigurumi, Toy</p>
          <h3 class="h3alt">Skill Level:</h3> <p class="p">Beginner/Intermediate</p>
@@ -152,20 +213,33 @@
          <h3 class="h3alt">Yardage:</h3>     <p class="p">200 yards</p>
          <h3 class="h3alt">Sizes Available:</h3> <p>N/A</p>
          <h3 class="h3alt">Dimensions:</h3>  <p class="p">Approximately 7.5cm tall when using the suggested yarn weight and hook size.</p>
-
-
-         <h3 class="h3alt">Gauge:</h3> <p class="palt">Gauge is not important - just make sure the stitches are tight enough so that the stuffing doesn’t show through.</p>
-         <h3 class="h3alt">Skills:</h3> <p class="p">Magic Circle, Double Crochet, increase, invisible decrease, continuous rounds.</p>
-         <h3 class="h3alt">Abbreviations:</h3> <p class="p">dc: double crochet inc: double crochet increase dec: double crochet decrease R: round st(s):stitch(es)  ch: chain</p>
-         <h3 class="h3alt">Supplies:</h3> <p class="p">Head and Body: 8 ply (DK) cotton in green. Spikes: 8 ply (DK) cotton in blue. Black embroidery thread to embroider mouth. Pink embroidery thread to embroider cheeks. 3mm crochet hook. Yarn needle. Polyester fibrefill stuffing. 8mm safety eyes.</p>
-         <h3 class="h3alt">Comments:</h3>
-         <img src="../Images/sendarrowicon.png" class="iconi">
-
-         <img src="../Images/hourglassicon.png" class="iconi">
-
-
+         
+         <div class="outer-boxi">
          <h3 class="h3alt">More Patterns from Author:</h3>
+      </div>
+      <div class="outer-boxi">
          <h3 class="h3alt">Similar Patterns:</h3>
+      </div>
+   </div>
+</div>
+
+
+      <div class="column3">
+               <h3 class="h3alt">Gauge:</h3> <p class="palt">Gauge is not important - just make sure the stitches are tight enough so that the stuffing doesn’t show through.</p>
+               <h3 class="h3alt">Skills:</h3> <p class="p">Magic Circle, Double Crochet, increase, invisible decrease, continuous rounds.</p>
+               <h3 class="h3alt">Abbreviations:</h3> <p class="p">dc: double crochet inc: double crochet increase dec: double crochet decrease R: round st(s):stitch(es)  ch: chain</p>
+               <h3 class="h3alt">Supplies:</h3> <p class="p">Head and Body: 8 ply (DK) cotton in green. Spikes: 8 ply (DK) cotton in blue. Black embroidery thread to embroider mouth. Pink embroidery thread to embroider cheeks. 3mm crochet hook. Yarn needle. Polyester fibrefill stuffing. 8mm safety eyes.</p>
+               <div class="outer-box">
+               <h3 class="h3alt">Comments:</h3>
+                  <img src="../Images/sendarrowicon.png" class="iconi">
+                  <img src="../Images/hourglassicon.png" class="iconi">
+               </div>
+      </div>
+
+      <div class="column2">
+         <img src="Images/rules.png">
+      </div>
+
 
 
    </body>
